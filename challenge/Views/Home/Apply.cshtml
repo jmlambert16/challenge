@@ -1,0 +1,102 @@
+﻿@{
+    ViewData["Title"] = "Application";
+}
+<head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/Form.css" />
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="form-body col">
+                    <div class="row">
+                        <div class="form-holder">
+                            <div class="form-content">
+                                <div class="form-items">
+                                    <h3>Application Form</h3>
+                                    <p>Fill in the data below.</p>
+                                    <form class="requires-validation" novalidate>
+
+                                        <div class="col-md-12">
+                                            <input class="form-control" type="text" name="name" placeholder="Full Name" required>
+                                            <div class="valid-feedback">Username field is valid!</div>
+                                            <div class="invalid-feedback">Username field cannot be blank!</div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <input class="form-control" type="text" name="email" placeholder="Email" required>
+                                            <div class="valid-feedback">Phone Number field is valid!</div>
+                                            <div class="invalid-feedback">Phone Number field cannot be blank!</div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <input class="form-control" type="text" name="phone" placeholder="Phone Number" required>
+                                            <div class="valid-feedback">Phone Number field is valid!</div>
+                                            <div class="invalid-feedback">Phone Number field cannot be blank!</div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <input class="form-control" type="password" name="password" placeholder="Password" required>
+                                            <div class="valid-feedback">Password field is valid!</div>
+                                            <div class="invalid-feedback">Password field cannot be blank!</div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <input class="form-control" type="text" name="School Year" placeholder="School Year" required>
+                                            <div class="valid-feedback">Username field is valid!</div>
+                                            <div class="invalid-feedback">Username field cannot be blank!</div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <input class="form-control" type="text" name="GPA" placeholder="GPA" required>
+                                            <div class="valid-feedback">Username field is valid!</div>
+                                            <div class="invalid-feedback">Username field cannot be blank!</div>
+                                        </div>
+
+
+                                        <div class="col-md-12 mt-3">
+                                            <label class="mb-3 mr-1" for="gender">Gender: </label>
+
+                                            <input type="radio" class="btn-check" name="gender" id="male" autocomplete="off" required>
+                                            <label class="btn btn-sm btn-outline-secondary" for="male">Male</label>
+
+                                            <input type="radio" class="btn-check" name="gender" id="female" autocomplete="off" required>
+                                            <label class="btn btn-sm btn-outline-secondary" for="female">Female</label>
+
+                                            <div class="valid-feedback mv-up">You selected a gender!</div>
+                                            <div class="invalid-feedback mv-up">Please select a gender!</div>
+                                        </div>
+
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                            <label class="form-check-label">I confirm that all data are correct</label>
+                                            <div class="invalid-feedback">Please confirm that the entered data are all correct!</div>
+                                        </div>
+
+
+                                        <div class="form-button mt-3">
+                                            <button id="submit" type="submit" class="btn btn-primary">Register</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <img width="300" src="~/img/BYU monogram_white@2x.png" />
+                <h1 style="color:white">Department of Dance</h1>
+                <p style="color:white">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
